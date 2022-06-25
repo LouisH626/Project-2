@@ -7,3 +7,6 @@ const submitButton = document.getElementById('submit');
 function buildQuiz(){}
 
 function showResults(){}
+
+//display quiz right away
+buildQuiz();
