@@ -121,6 +121,7 @@ buildQuiz();
 const previousButton = document.getElementById("previous");
 const nextButton = document.getElementById("next");
 const slides = document.querySelectorAll(".slide");
+let currentSlide = 0;
 
 // show first slide
 
