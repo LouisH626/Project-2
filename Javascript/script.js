@@ -38,6 +38,9 @@ function showResults(){
 
     // gather answer containers from our quiz
     const answerContainers = quizContainer.querySelectorAll('.answers');
+
+    // keep track of users answers
+    let numCorrect = 0;
 }
 
 const quizContainer = document.getElementById('quiz');
