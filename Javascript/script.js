@@ -34,7 +34,10 @@ function buildQuiz(){
     quizContainer.innerHTML = output.join('');
 
     // slide container
-    output.push()
+    output.push(
+        `<div class="slide">
+        `
+    )
 }
 
 function showResults(){
