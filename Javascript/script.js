@@ -49,6 +49,9 @@ function showResults(){
         const answerContainer = answerContainers[questionNumber];
         const selector = `input[name=question${questionNumber}]:checked`;
         const userAnswer = (answerContainer.querySelectorAll(selector) || {}).value;
+
+        // if answer is correct
+        if(userAnswer === currentQuestion.correctAnswer) 
     })
 }
 
