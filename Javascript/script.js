@@ -90,6 +90,7 @@ function showSlide(n) {
     }
     if(currentSlide === slides.length-1){
         nextButton.style.display = 'none';
+        submitButton.style.display = 'inline-block';
     }
 }
 
