@@ -45,6 +45,8 @@ function showResults(){
     // for each question
     myQuestions.forEach( (currentQuestion, questionNumber) => {
         
+        // find selected answer
+        const answerContainer = answerContainers[questionNumber];
     })
 }
 
