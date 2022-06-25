@@ -77,7 +77,8 @@ function showResults(){
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
 }
 
-
+// function to show a slide
+function showSlide(n) {}
 
 
 const quizContainer = document.getElementById('quiz');
