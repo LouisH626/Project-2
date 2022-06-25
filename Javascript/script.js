@@ -78,8 +78,9 @@ function showResults(){
 }
 
 // function to show a slide
-function showSlide(n) {}
-
+function showSlide(n) {
+    slides[currentSlide].classList.remove('active-slide');
+}
 
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
