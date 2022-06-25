@@ -142,6 +142,7 @@ const slides = document.querySelectorAll(".slide");
 let currentSlide = 0;
 
 // show first slide
+showSlide(currentSlide);
 
 // on submit show results
 submitButton.addEventListener('click', showResults);
