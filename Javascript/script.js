@@ -92,6 +92,7 @@ function showSlide(n) {
         nextButton.style.display = 'none';
         submitButton.style.display = 'inline-block';
     }
+    else{}
 }
 
 const quizContainer = document.getElementById('quiz');
