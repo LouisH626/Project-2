@@ -85,7 +85,9 @@ function showSlide(n) {
     if(currentSlide === 0){
         previousButton.style.display = 'none';
     }
-    else{}
+    else{
+        previousButton.style.display = 'inline-block';
+    }
 }
 
 const quizContainer = document.getElementById('quiz');
