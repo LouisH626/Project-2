@@ -43,6 +43,9 @@ function buildQuiz(){
         (currentQuestion, questionNumber) => {
             // variable to store the list of possible answers
             const answers = [];
+
+            // and for each available answer
+            for(letter in currentQuestion.answers)
         }
     )
 }
