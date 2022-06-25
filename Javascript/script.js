@@ -34,7 +34,11 @@ function buildQuiz(){
     quizContainer.innerHTML = output.join('');
 }
 
-function showResults(){}
+function showResults(){
+
+    // gather answer containers from our quiz
+    const answerContainers = quizContainer.querySelectorAll('.answers');
+}
 
 const quizContainer = document.getElementById('quiz');
 const resultContainer = document.getElementById('results');
