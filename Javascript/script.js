@@ -96,6 +96,14 @@ function showSlide(n) {
         nextButton.style.display = 'inline-block';
         submitButton.style.display = 'none';
     }
+    function showNextSlide(){
+        showSlide(currentSlide + 1);
+    }
+    
+    function showPreviousSlide(){
+        showSlide(currentSlide - 1);
+    }
+    
 }
 
 const quizContainer = document.getElementById('quiz');
@@ -130,13 +138,6 @@ const myQuestions = [
         },
         correctAnswer: "c"
     },
-
-function showNextSlide(){
-    showSlide(currentSlide + 1);
-}
-
-function showPreviousSlide(){}
-
 
 ];
 
