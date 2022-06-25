@@ -40,7 +40,10 @@ function buildQuiz(){
 
     // for each question
     myQuestions.forEach(
-        (currentQuestion, questionNumber) => {}
+        (currentQuestion, questionNumber) => {
+            // variable to store the list of possible answers
+            const answers = [];
+        }
     )
 }
 
