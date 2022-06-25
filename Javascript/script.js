@@ -131,7 +131,11 @@ const myQuestions = [
         correctAnswer: "c"
     },
 
-function showNextSlide(){}
+function showNextSlide(){
+    showSlide(currentSlide + 1);
+}
+
+
 ];
 
 //display quiz right away
