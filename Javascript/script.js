@@ -80,6 +80,7 @@ function showResults(){
 // function to show a slide
 function showSlide(n) {
     slides[currentSlide].classList.remove('active-slide');
+    slides[n].classList.add('active-slide');
 }
 
 const quizContainer = document.getElementById('quiz');
