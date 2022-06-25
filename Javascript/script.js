@@ -37,6 +37,9 @@ const myQuestions = [
 function buildQuiz(){
     // variable to store the HTML output
     const output = [];
+
+    // for each question
+    myQuestions.forEach()
 }
 
 function showResults(){}
