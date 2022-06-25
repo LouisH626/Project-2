@@ -50,7 +50,7 @@ function buildQuiz(){
                 // HTML radio buttons
                 answers.push(
                     `<label>
-                    <input type="radio" name="question${questionNumber}"
+                    <input type="radio" name="question${questionNumber}" value="${letter}">
                     `
                 )
             }
