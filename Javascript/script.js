@@ -135,6 +135,8 @@ function showNextSlide(){
     showSlide(currentSlide + 1);
 }
 
+function showPreviousSlide(){}
+
 
 ];
 
