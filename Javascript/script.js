@@ -36,6 +36,7 @@ function buildQuiz(){
     // slide container
     output.push(
         `<div class="slide">
+        <div class="question"> ${currentQuestion.question} </div>
         `
     )
 }
