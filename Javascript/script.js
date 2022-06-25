@@ -130,6 +130,8 @@ const myQuestions = [
         },
         correctAnswer: "c"
     },
+
+function showNextSlide(){}
 ];
 
 //display quiz right away
