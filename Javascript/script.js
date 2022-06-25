@@ -47,6 +47,7 @@ function showResults(){
         
         // find selected answer
         const answerContainer = answerContainers[questionNumber];
+        const selector = `input[name=question${questionNumber}]:checked`;
     })
 }
 
