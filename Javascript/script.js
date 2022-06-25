@@ -63,11 +63,15 @@ function showResults(){
             // colour the answers red
             answerContainers[questionNumber].style.color = 'red';
         }
-    })
+    });
+
+    // show number of correct answers out of total 
+    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
 }
 
+
 const quizContainer = document.getElementById('quiz');
-const resultContainer = document.getElementById('results');
+const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
 
 const myQuestions = [
