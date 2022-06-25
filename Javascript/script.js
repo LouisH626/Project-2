@@ -60,7 +60,7 @@ function buildQuiz(){
             // add this question and its answers to the output
             output.push(
                 `<div class="question"> ${currentQuestion.question}</div>
-                `
+                <div class="answers"> ${answers.join('')}</div>`
             )
         }
     )
