@@ -54,8 +54,11 @@ function buildQuiz(){
                     ${letter}:
                     ${currentQuestion.answers[letter]}
                     </label>`
-                )
+                );
             }
+
+            // add this question and its answers to the output
+            output.push()
         }
     )
 }
