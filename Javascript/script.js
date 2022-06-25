@@ -41,6 +41,11 @@ function showResults(){
 
     // keep track of users answers
     let numCorrect = 0;
+
+    // for each question
+    myQuestions.forEach( (currentQuestion, questionNumber) => {
+        
+    })
 }
 
 const quizContainer = document.getElementById('quiz');
