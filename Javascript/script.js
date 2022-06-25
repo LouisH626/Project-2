@@ -58,7 +58,10 @@ function buildQuiz(){
             }
 
             // add this question and its answers to the output
-            output.push()
+            output.push(
+                `<div class="question"> ${currentQuestion.question}</div>
+                `
+            )
         }
     )
 }
