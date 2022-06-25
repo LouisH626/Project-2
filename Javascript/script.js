@@ -94,6 +94,7 @@ function showSlide(n) {
     }
     else{
         nextButton.style.display = 'inline-block';
+        submitButton.style.display = 'none';
     }
 }
 
