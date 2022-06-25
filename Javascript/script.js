@@ -158,3 +158,4 @@ submitButton.addEventListener('click', showResults);
 
 // new event listener
 previousButton.addEventListener("click", showPreviousSlide);
+nextButton.addEventListener("click", showNextSlide);
