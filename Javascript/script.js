@@ -36,7 +36,7 @@ const myQuestions = [
 
 function buildQuiz(){
     // variable to store the HTML output
-    const output
+    const output = [];
 }
 
 function showResults(){}
