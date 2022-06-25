@@ -88,6 +88,7 @@ function showSlide(n) {
     else{
         previousButton.style.display = 'inline-block';
     }
+    if(currentSlide === slides.length-1){}
 }
 
 const quizContainer = document.getElementById('quiz');
