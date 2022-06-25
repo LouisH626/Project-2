@@ -81,6 +81,7 @@ function showResults(){
 function showSlide(n) {
     slides[currentSlide].classList.remove('active-slide');
     slides[n].classList.add('active-slide');
+    currentSlide = n;
 }
 
 const quizContainer = document.getElementById('quiz');
