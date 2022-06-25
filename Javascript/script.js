@@ -45,7 +45,13 @@ function buildQuiz(){
             const answers = [];
 
             // and for each available answer
-            for(letter in currentQuestion.answers)
+            for(letter in currentQuestion.answers){
+
+                // HTML radio buttons
+                answers.push(
+                    
+                )
+            }
         }
     )
 }
