@@ -59,7 +59,10 @@ function showResults(){
             answerContainers[questionNumber].style.color = 'lightgreen';
         }
         // if answer is wrong or blank 
-        else{}
+        else{
+            // colour the answers red
+            answerContainers[questionNumber].style.color = 'red';
+        }
     })
 }
 
