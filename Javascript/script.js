@@ -49,7 +49,8 @@ function buildQuiz(){
 
                 // HTML radio buttons
                 answers.push(
-                    
+                    `<label>
+                    `
                 )
             }
         }
