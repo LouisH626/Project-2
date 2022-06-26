@@ -37,9 +37,9 @@ function buildQuiz(){
     output.push(
         `<div class="slide">
         <div class="question"> ${currentQuestion.question} </div>
-        <div class="answers"> ${answers.join('')} </div>
+        <div class="answers"> ${answers.join("")} </div>
         </div>`
-    )
+    );
 }
 
 function showResults(){
@@ -96,15 +96,15 @@ function showSlide(n) {
         nextButton.style.display = 'inline-block';
         submitButton.style.display = 'none';
     }
-    function showNextSlide(){
+}
+function showNextSlide(){
         showSlide(currentSlide + 1);
     }
     
-    function showPreviousSlide(){
+function showPreviousSlide(){
         showSlide(currentSlide - 1);
     }
     
-}
 
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
