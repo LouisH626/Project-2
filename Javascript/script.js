@@ -25,7 +25,8 @@ function buildQuiz(){
             // add this question and its answers to the output
             output.push(
                 `<div class="question"> ${currentQuestion.question}</div>
-                <div class="answers"> ${answers.join('')}</div>`
+                <div class="answers"> ${answers.join('')}</div>
+                </div>`
             );
         }
     );
@@ -118,7 +119,7 @@ const myQuestions = [
             b: "1914",
             c: "1972"
         },
-        correctAnswer: "a"
+        correctAnswer: "a" 
     },
     {
         question: "Who wrote the famous play Romeo & Juliet?",
