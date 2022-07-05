@@ -1,4 +1,5 @@
 // use strict
+/* jshint esversion: 6 */
 function buildQuiz(){
     // variable to store the HTML output
     const output = [];
@@ -16,7 +17,7 @@ function buildQuiz(){
                 answers.push(
                     `<label>
                     <input type="radio" name="question${questionNumber}" value="${letter}">
-                    ${letter}:
+                    ${letter} :
                     ${currentQuestion.answers[letter]}
                     </label>`
                 );
@@ -24,16 +25,15 @@ function buildQuiz(){
 
             // add this question and its answers to the output
             output.push(
-                `<div class="question"> ${currentQuestion.question}</div>
-                <div class="answers"> ${answers.join('')}</div>
-                </div>`
+                `<div class="question"> ${currentQuestion.question} </div>
+                <div class="answers"> ${answers.join('')} </div>`
             );
         }
     );
 
     // finally combine our output list into one string of HTML and put it on the page
     quizContainer.innerHTML = output.join('');
-
+    
     // slide container
     output.push(
         `<div class="slide">
@@ -77,7 +77,6 @@ function showResults(){
     // show number of correct answers out of total 
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
 }
-
 // function to show a slide
 function showSlide(n) {
     slides[currentSlide].classList.remove('active-slide');
@@ -105,7 +104,6 @@ function showNextSlide(){
 function showPreviousSlide(){
         showSlide(currentSlide - 1);
     }
-    
 
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
